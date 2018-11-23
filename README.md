@@ -16,7 +16,7 @@ GOOS=darwin GOARCH=386 go build -o hola.exe hola.go
 Otros Ejemplos
 
 | GOOS - Target Operating System | GOARCH - Target Platform |
-============================================================
+| ------------------------------ | -------------------------| 
 | android | arm |
 | darwin | 386 |
 | darwin | amd64 |
@@ -24,9 +24,6 @@ Otros Ejemplos
 | darwin | arm64 |
 | dragonfly | amd64 |
 | freebsd | 386 |
-
-
-
 |freebsd | amd64|
 |freebsd | arm|
 |linux | 386|
