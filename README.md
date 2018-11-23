@@ -1,19 +1,51 @@
-# wksgolang
-Capacitación go
+# wksgolang #
 
+Workshop de trabajo Lenguaje de programación GO
+
+## Linea de comando ##
+```bash
 go version
+
 go run main.go
 
 godoc fmt Println
+```
 
-Compilación
-Windows
+## Hola Mundo ##
+
+```go
+package main
+
+import "fmt"
+
+func main() {
+	fmt.Printf("Hello\n")
+}
+```
+
+## Tipos de datos ##
+
+### Enteros ###
+uint8, uint16, uint32, uint64, int8, int16, int32 and int64
+
+### Punto flotante ###
+float32, float64
+
+### Strings ###
+
+### Booleans ###
+
+
+
+## Compilación ##
+
+### Windows ###
 GOOS=windows GOARCH=386 go build -o hola.exe hola.go
 
-Mac
+### Mac ###
 GOOS=darwin GOARCH=386 go build -o hola.exe hola.go
 
-Otros Ejemplos
+### Otros Ejemplos ### 
 
 | GOOS - Target Operating System | GOARCH - Target Platform |
 | ------------------------------ | -------------------------| 
