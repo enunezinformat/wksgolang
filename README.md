@@ -2,6 +2,13 @@
 
 Workshop de trabajo Lenguaje de programación GO
 
+## Uso docker ##
+```bash
+docker-compose up --build
+```
+
+
+
 ## Linea de comando ##
 ```bash
 go version

@@ -9,5 +9,4 @@ func main() {
 
 	fmt.Println(x)
 	fmt.Println(y + z)
-
 }
